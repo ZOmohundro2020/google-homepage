@@ -74,7 +74,7 @@ li {
 }
 
 #search-bar-input:hover {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.01), 0 2px 2px 0 rgba(0, 0, 0, 0.1);
 }
 
 .grid-icon {
@@ -108,4 +108,22 @@ li {
     border-radius: 50%;
     width: 30px;
     height: 30px;
+}
+
+#search-buttons {
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 20px;
+}
+
+.google-search, .feeling-lucky {
+    background-color: #dfe1e570;
+    min-width: 50px;
+    border: 1;
+    padding: 0px 20px;
+}
+
+.google-search {
+    margin-right: 10px;
 }
