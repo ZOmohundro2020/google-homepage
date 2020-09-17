@@ -60,6 +60,7 @@ li {
 #search-bar {
     margin: auto;
     width: 500px;
+    
    
     
 }
@@ -76,6 +77,12 @@ li {
 
 #search-bar-input:hover {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.01), 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+#search-bar-input:focus {
+      
+    outline-width: 0;
 }
 
 .grid-icon {
@@ -140,25 +147,49 @@ a.profile-icon {
 
 #bottom-bar {
     display:flex;
+    height: 30px;
     width: 100%;
-    border solid 3px;
+    /* border solid 3px; */
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     position:fixed;
     bottom:0;
-            
+    background-color: rgba(122, 122, 122, 0.185);
+    left: 0;      
     }
 }
 
 .bottom-left {
-       
+   margin-left: 0;   
+    
 }
 
 .bottom-left a{
-    margin-left: 0;
-    padding-right: 5px;
-    padding-left: 0;
+    margin-left: 5px;;
+    padding-right: 4px;
+    padding-left: 4px;;
     text-decoration: none;
+    opacity: .5;
     color: black;
+    
+}
+
+
+
+.bottom-right {
+    margin-left: auto;
+    margin-right: 0;
+  
+    text-decoration: none;
+   
+    color: black;
+}
+
+.bottom-right a {
+    text-decoration: none;
+    color: black;   
+    opacity: .5;
+    padding-right: 4px;
+    padding-left: 4px;
 }
